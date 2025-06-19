@@ -1,0 +1,7 @@
+services:
+  image:
+    container_name: samuel_portfolio
+    build: .
+    ports:
+      - '3335:4173'
+    restart: unless-stopped
