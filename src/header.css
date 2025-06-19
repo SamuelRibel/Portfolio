@@ -1,0 +1,57 @@
+.navbar{
+    background: #313139;
+    padding: 20px 5px 20px 5px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.navicon{
+    height: 50px;
+    width: 50px;
+    margin-left: 80px;
+}
+
+.navname{
+  font-family: 'Audiowide', sans-serif;
+  font-size: 40px;
+  color: #E10600;
+  text-transform: uppercase;
+  transform: skewX(-20deg);
+}
+
+.f1-button {
+  display: flex;
+  align-items: center;
+  background-color: #2e2e38;
+  border: none;
+  gap: 0px;
+  padding: 10px 60px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  width: fit-content;
+  box-shadow: -2px 1px 15px 14px rgba(0,0,0,0.22);
+  -webkit-box-shadow: -2px 1px 15px 14px rgba(0,0,0,0.22);
+  -moz-box-shadow: -2px 1px 15px 14px rgba(0,0,0,0.22);
+}
+
+.f1-button img{
+    width: 102px;
+    height: auto;
+}
+
+.f1-text {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 30px;
+  transform: skewX(-35deg);
+}
+
+a{
+    text-decoration: none;
+}
