@@ -9,15 +9,7 @@ export function Header(){
     <header className="header">
         <nav className="navbar">
             <div className="navdiv">
-                <div className="navname">Samuel Ribeiro</div>
-                <div>
-                    <a href="https://www.formula1.com" target="_blank">
-                        <button className="f1-button">
-                            <img src={F1} alt="#" />
-                            <span className="f1-text">Experience</span>
-                        </button>
-                    </a> 
-                </div>
+                <div className="navname">S.R.</div>
                 <div>
                     <a href="https://github.com/SamuelRibel" target="_blank">
                         <img className="navicon" src={Github} alt="Github"  />
