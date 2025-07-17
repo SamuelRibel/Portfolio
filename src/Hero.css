@@ -1,0 +1,24 @@
+.hero-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-name{
+    color: #FED7A5;
+    font-size: 70px;
+    padding-top: 25vh;
+}
+
+.under-name{
+    font-weight: bold;
+    font-size: 22px;
+    color: #2D4354;
+}
+
+.phrase{
+    padding-top: 15px;
+    color: #2D4354;
+    font-weight: bold;
+}
