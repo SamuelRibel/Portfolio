@@ -22,3 +22,14 @@
     color: #2D4354;
     font-weight: bold;
 }
+
+.bandeira{
+    height: 20px;
+    width: 20px;
+}
+
+.under-name-wraper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

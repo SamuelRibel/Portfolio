@@ -1,4 +1,4 @@
-export function Projtects(){
+export function Stack(){
     return(
         <div>
             
