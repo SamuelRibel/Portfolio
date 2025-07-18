@@ -9,8 +9,8 @@ export function Header(){
     <header className="header">
         <nav className="navbar">
             <div className="navdiv">
-                <div className="navname">S.R.</div>
-                <div>
+                {/* <div className="navname">S.R.</div> */}
+                {/* <div>
                     <a href="https://github.com/SamuelRibel" target="_blank">
                         <img className="navicon" src={Github} alt="Github"  />
                     </a>
@@ -20,7 +20,7 @@ export function Header(){
                     <a href="/Samuels_CV.pdf" target="_blank">
                         <img className="navicon" src={CV} alt="Resume" />
                     </a>
-                </div>
+                </div> */}
             </div>
         </nav>
     </header>

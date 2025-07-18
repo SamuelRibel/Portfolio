@@ -8,7 +8,20 @@
 .hero-name{
     color: #FED7A5;
     font-size: 70px;
-    padding-top: 25vh;
+    margin-top: 25vh;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 0;
+    animation: typing 3s steps(20, end) forwards, blink 0.7s step-end infinite;
+}
+
+@keyframes typing{
+    to{width: 26.7%;}
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
 }
 
 .under-name{
@@ -32,4 +45,26 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-bottom: 10px;
+}
+
+.button{
+    margin: 15px 15px;
+    background-color: #534154;
+    width: 135px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #FED7A5;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background: linear-gradient(45deg, #534154, #9E6752, #2D4354);
+    background-size: 600% 600% ;
+    transition: all 1.0s ease-in-out;
+}
+
+button:hover{
+    background-position: right center;
+    transform: scale(1.1);
+    transition: all 500ms ease-in;
 }

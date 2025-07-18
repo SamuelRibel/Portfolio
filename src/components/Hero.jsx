@@ -8,6 +8,11 @@ export function Hero(){
                 <img className="bandeira" src={Bandeira} alt="" />
                 <p className="under-name">Minas Gerais, BR | Full-Stack developer</p>
             </div>
+            <div className="div-button">
+                <a href="https://www.linkedin.com/in/sam-ribel/" target="_blank"><button className="button">LINKEDIN</button></a>
+                <a href="https://github.com/SamuelRibel" target="_blank"><button className="button">GITHUB</button></a>
+                <a href="/Samuels_CV.pdf" target="_blank"><button className="button">RESUME</button></a>
+            </div>
             <p className="phrase">"I am always doing that which I cannot do, in order that I may learn how to do it." — Pablo Picasso</p>
             <div className="">
 
@@ -16,4 +21,5 @@ export function Hero(){
         
         
     )
+    
 }
