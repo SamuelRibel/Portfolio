@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.content-box {
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    margin: 45vh 15px 50px 15px;
+    border-radius: 5px;
+    background-color: #2D4354;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.stack-name{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #73766A;
+}
+
+.stack-front{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;;
+    justify-content: center;
+    padding: 16px;
+}
+
+.tech-front {
+    width: 120px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50px;
+    color: #18181a;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 24px ;
+    text-decoration: none;
+    cursor: pointer;
+    background: #FED7A5;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tech-front span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tech-front span:last-child {
+    color: #FED7A5;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 10px;
+    line-height: 13px;
+}
+
+.tech-front:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9E6752;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.tech-front:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.tech-front:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}

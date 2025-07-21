@@ -1,3 +1,4 @@
+
 .hero-block{
     display: flex;
     justify-content: center;
@@ -8,16 +9,17 @@
 .hero-name{
     color: #FED7A5;
     font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 25vh;
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid;
     width: 0;
-    animation: typing 3s steps(20, end) forwards, blink 0.7s step-end infinite;
+    animation: typing 2.5s steps(20, end) forwards, blink 0.7s step-end infinite;
 }
 
 @keyframes typing{
-    to{width: 26.7%;}
+    to{width: 26.9%;}
 }
 
 @keyframes blink {
@@ -26,14 +28,17 @@
 
 .under-name{
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     color: #2D4354;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .phrase{
     padding-top: 15px;
+    font-size: 30px;
     color: #2D4354;
     font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .bandeira{
@@ -48,7 +53,7 @@
     padding-bottom: 10px;
 }
 
-.button{
+.links{
     margin: 15px 15px;
     background-color: #534154;
     width: 135px;
@@ -63,7 +68,7 @@
     transition: all 1.0s ease-in-out;
 }
 
-button:hover{
+.links:hover{
     background-position: right center;
     transform: scale(1.1);
     transition: all 500ms ease-in;
