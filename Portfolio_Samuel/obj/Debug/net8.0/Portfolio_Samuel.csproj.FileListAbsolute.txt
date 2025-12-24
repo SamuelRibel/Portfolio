@@ -32,3 +32,4 @@ C:\Users\Samuel\Documents\Projetos-Samuel\Projetos_C#\Portfolio_Samuel\Portfolio
 C:\Users\Samuel\Documents\Projetos-Samuel\Projetos_C#\Portfolio_Samuel\Portfolio_Samuel\obj\Debug\net8.0\Portfolio_Samuel.pdb
 C:\Users\Samuel\Documents\Projetos-Samuel\Projetos_C#\Portfolio_Samuel\Portfolio_Samuel\obj\Debug\net8.0\Portfolio_Samuel.genruntimeconfig.cache
 C:\Users\Samuel\Documents\Projetos-Samuel\Projetos_C#\Portfolio_Samuel\Portfolio_Samuel\obj\Debug\net8.0\ref\Portfolio_Samuel.dll
+C:\Users\Samuel\Documents\Projetos-Samuel\Projetos_C#\Portfolio_Samuel\Portfolio_Samuel\obj\Debug\net8.0\Portfolio_Samuel.sourcelink.json

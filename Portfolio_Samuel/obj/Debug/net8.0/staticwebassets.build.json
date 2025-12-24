@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B8QV7sQ5nMkTaICjUc69+HgBb2/1VbzfYab0VFupRbU=",
+  "Hash": "7i7f9MnlmL5v909cdn4yy3SyZfqgIz8TEvH3met2TVk=",
   "Source": "Portfolio_Samuel",
   "BasePath": "_content/Portfolio_Samuel",
   "Mode": "Default",
@@ -1338,6 +1338,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\site.css",
+      "SourceId": "Portfolio_Samuel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\",
+      "BasePath": "_content/Portfolio_Samuel",
+      "RelativePath": "site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kd048gorc9",
+      "Integrity": "GJ2bSUXs+x7kycPhzxT4l70hgVK1SpVDCiD6vLyuL8Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\home\\home.css",
+      "SourceId": "Portfolio_Samuel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\",
+      "BasePath": "_content/Portfolio_Samuel",
+      "RelativePath": "views/home/home#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\home\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\index.css",
+      "SourceId": "Portfolio_Samuel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\",
+      "BasePath": "_content/Portfolio_Samuel",
+      "RelativePath": "views/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w7tcngnz6q",
+      "Integrity": "FPoDsTcLCZDyfIlo1XxIP48xQn6JJFd6zm9o+3NCRuc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\index.css"
     }
   ],
   "Endpoints": [
@@ -6504,6 +6567,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-UBBfWq3Y67TSF8Uq8r9TKvDNpO8+oVUWSErEbARZ+zE="
+        }
+      ]
+    },
+    {
+      "Route": "site.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJ2bSUXs+x7kycPhzxT4l70hgVK1SpVDCiD6vLyuL8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 02:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJ2bSUXs+x7kycPhzxT4l70hgVK1SpVDCiD6vLyuL8Y="
+        }
+      ]
+    },
+    {
+      "Route": "site.kd048gorc9.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GJ2bSUXs+x7kycPhzxT4l70hgVK1SpVDCiD6vLyuL8Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 24 Dec 2025 02:32:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kd048gorc9"
+        },
+        {
+          "Name": "label",
+          "Value": "site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GJ2bSUXs+x7kycPhzxT4l70hgVK1SpVDCiD6vLyuL8Y="
+        }
+      ]
+    },
+    {
+      "Route": "views/home/home.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\home\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 04:02:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "views/home/home.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\home\\home.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 04:02:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "views/home/home.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "views/index.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FPoDsTcLCZDyfIlo1XxIP48xQn6JJFd6zm9o+3NCRuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 04:11:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FPoDsTcLCZDyfIlo1XxIP48xQn6JJFd6zm9o+3NCRuc="
+        }
+      ]
+    },
+    {
+      "Route": "views/index.w7tcngnz6q.css",
+      "AssetFile": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FPoDsTcLCZDyfIlo1XxIP48xQn6JJFd6zm9o+3NCRuc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 17 Dec 2025 04:11:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w7tcngnz6q"
+        },
+        {
+          "Name": "label",
+          "Value": "views/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FPoDsTcLCZDyfIlo1XxIP48xQn6JJFd6zm9o+3NCRuc="
         }
       ]
     }

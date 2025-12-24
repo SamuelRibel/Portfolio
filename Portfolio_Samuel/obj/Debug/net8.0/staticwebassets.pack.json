@@ -249,6 +249,18 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\home\\home.css",
+      "PackagePath": "staticwebassets\\views\\home\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\Samuel\\Documents\\Projetos-Samuel\\Projetos_C#\\Portfolio_Samuel\\Portfolio_Samuel\\wwwroot\\views\\index.css",
+      "PackagePath": "staticwebassets\\views\\index.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Portfolio_Samuel.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

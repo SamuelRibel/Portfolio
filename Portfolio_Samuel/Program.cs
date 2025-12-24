@@ -19,7 +19,6 @@ namespace Portfolio_Samuel
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
